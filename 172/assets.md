@@ -1,213 +1,47 @@
-# 静态部署
+# 抖音直播话术及注意事项 👀
 
+发表于 2024-07-21 15:00:19
 
-## 方式
+请认真阅读完以免造成不必要的麻烦
 
-主要讲一下GitHub，其他的方式都大同小异，[更多部署方式可以参考官方文档](https://vitepress.dev/zh/guide/deploy)
+代理应避免用户差评影响店铺，禁止宣传保号套餐，禁止虚假宣传，禁止引导客户短期使用或注销，直播间禁止出现违禁词，订单结算后无故注销
 
-::: tip 说明
-常见的静态部署方式，无论你采用哪种，都会先上传到GitHub
-:::
+恶意套取佣金情况我司有权拉黑并且追回佣金终止合作。
 
-| 名称 | 自定义域名 | 限制 | 缺点 |
-|:-:|:-:|:-:|:-:|
-| [Github page](https://pages.github.com/) | 支持 | 空间1G，100G/月 | 国内访问慢，百度不收录 |
-| [Gitee Pages](https://gitee.com/help/articles/4136#article-header0) | 收费 | 空间1G，100G/月 | 需实名，仓库审查 |
-| [GitLab Pages](https://docs.gitlab.cn/jh/user/project/pages/index.html) | 支持 | - | 国内访问慢 |
-| |
-| [Netlify](https://docs.netlify.com/get-started/) | 支持 | 100G/月 | 从GitHub、GitLab、BitBucket拉取 |
-| [Vercel](https://vercel.com/docs/concepts/get-started) | 支持 | 100G/月 | 从GitHub、GitLab、BitBucket拉取 |
-| [Cloudflare Pages](https://developers.cloudflare.com/pages/get-started/) | 支持 | - | 从GitHub、GitLab拉取 |
+## 一、直播话术参考 🌟
 
+(仅作为参考具体请按套餐标准去改编)
 
+平时流量不够用，月租很贵的，爱打游戏爱看电影的哥姐，想试试水的点击右下方链接去拍，拍下解决流量问题，早拍早发货，早用早省钱，拍完
 
-## Base
+回来扣手机尾号优先审核，在直播间没有任何试错成本的，不止自己手机能用，家里的平板也可以，还能给流量不够用的家人开热点，想要一个省
 
-::: warning 注意
+钱的，大流量不限速的我们今天尽力给大家安排一张，咱们家卡有些地区已经抢光了，有名额的大家抓紧下单，越往后抢光的越多名额越少，如果
 
-base必须配置，否则打包会丢失css样式！！
+抢完了我们也是不补单不加单的，接听电话免费接收短信免费，全部都是正规卡官方可查的可以正常接打电话发短信的，大家有什么问题可以打在
 
-根目录配置 `/`，那么对应 `https://yiov.github.io/`
+公屏上，没有的话咱们可以左下角先拍下占个名额，想要加急审核的想优先审核的你们可以把尾号打在公屏上，给 xxx 安排个优先审核啊，去秒拍秒
 
-仓库 `vitepress` 配置 `/vitepress/` ，那么对应 `https://yiov.github.io/vitepress`
-:::
+领就可以，官方可以查官方可以验的，正规套餐资费，没有额外的扣费隐形的消费捆绑消费朋友们，全程高速网速给到大家的是一个正规的号卡号
 
-我们根据自己的需求，选择相应的的配置
+段，不是物某卡不是虚拟号，打电话发短信注册软件全部支持，开卡的话是需要付费的，因为不充费的话是停机状态，停机是没有办法用的，每个
 
-```ts
-export default defineConfig({
-    base: '/', //网站部署的路径，默认根目录
-    // base: '/vitepress/', //网站部署到github的vitepress这个仓库里
-})
-```
+月有_流量，不限网速不限 APP 不限地区，4G5G 支持，不虚标不卡顿的通用高速流量，并且我们给到大家首月免月租，从下个月开始才给大家扣费
 
-另一个要注意的点，部署到非根目录，你的 [Fav图标路径](./page.md#fav图标) 也要变动一下
+的，我们平时去包流量个 G 都要百十块钱的，今天在我直播间里首冲元能用_个月，出去旅行也是可以用的，因为有些地区已经没名额了所以有
 
-```ts{5-6}
-export default defineConfig({
+名额的宝宝可以先去下单，我们这些卡也是拿出来做福利的，收到货觉得好的宝宝给个好评
 
-  //fav图标
-  head: [
-    ['link',{ rel: 'icon', href: '/logo.png'}], //部署到根目录 // [!code --]
-    ['link',{ rel: 'icon', href: '/vitepress/logo.png'}], //部署到vitepress仓库 // [!code ++]
-  ],
+## 二、带货易违规事项 🚫
+(1)含有虚假夸大、超范围描述、虚构商品来源背景、不实信息等虚假宣传用语;
+(2)使用“国家级”、“最高级” “第一”等绝对化用语;
+(3)诱导消费者私下交易及存在其他可能侵害消费者合法权益的行为;
+(4)超范围使用“官方”、“授权”、“专卖”及其他带有类似含义的内容;例如，来源于普通类型店铺的商品使用“官方”、“授权”描述用语
+(5)法律法规、平台规则禁止的其他信息内容。
+(6)使用"清仓处理"、“低价商品"、"超值价格"等表达吸引眼球，同时以"商品憋单"、"商品无库存"等方式，引导消费者的误解的表述。
 
-})
-```
+## 三、代理不能在直播间谈论招聘招商加盟事宜，不能引导用户去投资 💰
 
+## 四、敏感词汇与话题 ❌
 
-## 部署
-
-
-### 手动部署
-
-构建完成后，在dist文件夹上传到Github即可
-
-::: code-group
-```sh [pnpm]
-pnpm run docs:build
-```
-
-```sh [yarn]
-yarn docs:build
-```
-
-```sh [npm]
-npm run docs:build
-```
-
-```sh [bun]
-bun run docs:build
-```
-:::
-
-
-
-
-:::: details 如果你需要本地预览，可以执行
-::: code-group
-```sh [pnpm]
-pnpm run docs:preview
-```
-
-```sh [yarn]
-yarn docs:preview
-```
-
-```sh [npm]
-npm run docs:preview
-```
-
-```sh [bun]
-bun run docs:preview
-```
-:::
-::::
-
-
-
-默认的构建输出目录 `.vitepress/dist` ，将生成的所有文件上传到 Github 即可
-
-::: tip 说明
-如果你还不会使用，请参考教程：[Github的注册使用到上传](https://yiov.top/website/pages/github.html)
-:::
-
-
-上传成功后，在GitHub仓库 - 设置 - page里把分支改成main，默认root，保存
-
-
-等创建成功后即可获得访问链接
-
-
-
-
-### 自动部署（推荐）
-
-* [Vercel](https://vercel.com/docs/concepts/get-started) ：非常推荐，可以参考 [Vercel注册到部署](https://yiov.top/website/pages/vercel.html)
-
-* Github Actions 工作流
-
-:::: details 点我查看 Github Actions 工作流步骤
-
-在仓库 `Actions` 里新建一个工作流 中创建一个 `deploy.yml` 脚本文件
-
-每次你更新代码后，系统会自动给你打包上传并部署
-
-::: tip 说明
-名字可以自定义，不用非得用 `deploy` ，只要下面配置名和这个一致就行
-
-分支默认是 `main`
-:::
-
-
-```yml{3,9}
-# 构建 VitePress 站点并将其部署到 GitHub Pages 的示例工作流程
-#
-name: Deploy VitePress site to Pages
-
-on:
-  # 在针对 `main` 分支的推送上运行。如果你
-  # 使用 `master` 分支作为默认分支，请将其更改为 `master`
-  push:
-    branches: [main]
-
-  # 允许你从 Actions 选项卡手动运行此工作流程
-  workflow_dispatch:
-
-# 设置 GITHUB_TOKEN 的权限，以允许部署到 GitHub Pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-# 只允许同时进行一次部署，跳过正在运行和最新队列之间的运行队列
-# 但是，不要取消正在进行的运行，因为我们希望允许这些生产部署完成
-concurrency:
-  group: pages
-  cancel-in-progress: false
-
-jobs:
-  # 构建工作
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0 # 如果未启用 lastUpdated，则不需要
-      # - uses: pnpm/action-setup@v2 # 如果使用 pnpm，请取消注释
-      # - uses: oven-sh/setup-bun@v1 # 如果使用 Bun，请取消注释
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-          cache: npm # 或 pnpm / yarn
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-      - name: Install dependencies
-        run: npm ci # 或 pnpm install / yarn install / bun install
-      - name: Build with VitePress
-        run: |
-          npm run docs:build # 或 pnpm docs:build / yarn docs:build / bun run docs:build
-          touch docs/.vitepress/dist/.nojekyll
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
-        with:
-          path: docs/.vitepress/dist
-
-  # 部署工作
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    needs: build
-    runs-on: ubuntu-latest
-    name: Deploy
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
-```
-
-
-::::
+文明用语不能说脏话、包括不限于辱骂或带有攻击歧视性用语，不得谈论或表现低俗、色情、淫秽(包括嫖娼出轨)等;不得谈论国家、党、英雄事迹宣传迷信邪教内容；不得表演危险血腥，暴力内容。不得妄议新闻热点(军事、自然灾害、灾情)以上沾边的词汇都不能再直播间内谈论或表演 
