@@ -121,7 +121,7 @@ export default defineConfig({ // 配置
           },
           {
             // 分组标题2
-            text: '基础设置',
+            text: '知识库',
             items: [
               { text: '发货时效', link: '/172/getting-started' },
               { text: '配置', link: '/172/configuration' },
@@ -131,7 +131,7 @@ export default defineConfig({ // 配置
           },
           {
             // 分组标题3
-            text: '进阶玩法',
+            text: '常见问题',
             items: [
               { text: 'Markdown', link: '/markdown' },
               { text: '团队', link: '/172/team' },
