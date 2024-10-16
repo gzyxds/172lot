@@ -2,15 +2,15 @@ import { defineConfig } from 'vitepress'
 
 //命令集：pnpm add -D vitepress vue @mdit-vue/shared @types/node busuanzi.pure.js canvas-confetti less medium-zoom sass vitepress-plugin-comment-with-giscus xgplayer
 
-import { devDependencies } from '../../package.json'
+import { devDependencies } from '../../package.json' // 导入package.json
 
 import { groupIconMdPlugin, groupIconVitePlugin, localIconLoader } from 'vitepress-plugin-group-icons'
 
-export default defineConfig({
-  lang: 'zh-CN',
-  title: "172号卡分销系统官网_手机流量卡分销管理平台",
-  keywords: "172号卡,流量卡,物联卡,电信,移动,联通,广电,在线申请,办理,分销,代理,合伙人,流量卡业务,丰厚收益",
-  description: "172号卡官网！我们提供最新的电信、移动、联通和广电流量卡及物联卡的在线申请和办理服务。加入我们的分销管理平台，成为代理合伙人，轻松管理您的流量卡业务，获取丰厚收益。",
+export default defineConfig({ // 配置
+  lang: 'zh-CN', // 语言
+  title: "172号卡分销系统官网_手机流量卡分销管理平台", // 标题
+  keywords: "172号卡,流量卡,物联卡,电信,移动,联通,广电,在线申请,办理,分销,代理,合伙人,流量卡业务,丰厚收益", // 关键词
+  description: "172号卡官网！我们提供最新的电信、移动、联通和广电流量卡及物联卡的在线申请和办理服务。加入我们的分销管理平台，成为代理合伙人，轻松管理您的流量卡业务，获取丰厚收益。", // 描述
 
   // #region fav
   head: [   //favicon图标
@@ -188,10 +188,10 @@ sidebar: {
       text: '&#128295; 基础配置',
       collapsed: false,
       items: [
-        { text: '发货时效', link: '/getting-started' },
-        { text: '配置', link: '/configuration' },
-        { text: '页面', link: '/page' },
-        { text: 'Frontmatter', link: '/frontmatter' },
+        { text: '发货时效', link: '/172/getting-started' },
+        { text: '配置', link: '/172/configuration' },
+        { text: '页面', link: '/172/page' },
+        { text: 'Frontmatter', link: '/172/frontmatter' },
       ],
     },
     {
@@ -199,15 +199,15 @@ sidebar: {
       text: '&#128640; 进阶玩法',
       collapsed: false,
       items: [
-        { text: 'Markdown', link: '/markdown' },
-        { text: '团队', link: '/team' },
-        { text: '静态部署', link: '/assets' },
-        { text: '样式美化', link: '/style' },
-        { text: '组件', link: '/components' },
-        { text: '布局插槽', link: '/layout' },
-        { text: '插件', link: '/plugin' },
-        { text: '更新及卸载', link: '/update' },
-        { text: '搭建导航', link: '/nav/' },
+        { text: 'Markdown', link: '/172/markdown' },
+        { text: '团队', link: '/172/team' },
+        { text: '静态部署', link: '/172/assets' },
+        { text: '样式美化', link: '/172/style' },
+        { text: '组件', link: '/172/components' },
+        { text: '布局插槽', link: '/172/layout' },
+        { text: '插件', link: '/172/plugin' },
+        { text: '更新及卸载', link: '/172/update' },
+        { text: '搭建导航', link: '/172/nav/' },
       ],
     },
     {
@@ -221,6 +221,7 @@ sidebar: {
       ],
     },
   ],
+   //分组标题3
   '/lot/': [
     {
       text: 'FAQ &#128587;‍♂️',
