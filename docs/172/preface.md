@@ -4,19 +4,19 @@
 <div style="text-align: center;">
 <div style="display: flex; justify-content: center; flex-wrap: wrap;">
   <div style="text-align: center; margin: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 10px; overflow: hidden;">
-    <img src="./public/imges/wx.png" alt="联系客服二维码" style="width: 100%; max-width: 150px; height: auto;" />
+    ![联系客服二维码](/public/imges/wx.png)
     <p>关注我们</p>
   </div>
   <div style="text-align: center; margin: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 10px; overflow: hidden;">
-    <img src="./public/imges/wx.png" alt="联系客服二维码" style="width: 100%; max-width: 150px; height: auto;" />
+    ![联系客服二维码](/public/imges/wx.png)
     <p>扫码注册</p>
   </div>
   <div style="text-align: center; margin: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 10px; overflow: hidden;">
-    <img src="./public/imges/wx.png" alt="二维码1" style="width: 100%; max-width: 150px; height: auto;" />
+    ![二维码1](/public/imges/wx.png)
     <p>在线领卡</p>
   </div>
   <div style="text-align: center; margin: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 10px; overflow: hidden;">
-    <img src="./public/imges/wx.png" alt="二维码2" style="width: 100%; max-width: 150px; height: auto;" />
+    ![二维码2](/public/imges/wx.png)
     <p>加入社群</p>
   </div>
 </div>
