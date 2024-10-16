@@ -93,8 +93,8 @@ export default defineConfig({ // 配置
 
     //编辑本页
     editLink: {
-      pattern: 'https://github.com/Yiov/vitepress-doc/edit/main/docs/:path', // 改成自己的仓库
-      text: '在GitHub编辑本页'
+      pattern: 'https://github.com/gzyxds/172lot/blob/main/docs/:path', // 改成自己的仓库
+      text: '编辑本页'
     },
 
     //上次更新时间
@@ -116,7 +116,7 @@ export default defineConfig({ // 配置
             // 分组标题1
             text: '介绍',
             items: [
-              { text: '前言', link: '/172/preface' },
+              { text: '公司介绍', link: '/172/preface' },
             ],
           },
           {
@@ -188,9 +188,9 @@ sidebar: {
       text: '&#128216; 介绍',
       collapsed: false,
       items: [
-        { text: '172号卡介绍', link: '/172/preface' },
-        { text: '免费领卡', link: '/172/preface' },
-        { text: '产品合集', link: '/172/preface' },
+        { text: '公司简介', link: '/172/preface' },
+        { text: '免费领卡', link: '/172/collect' },
+        { text: '产品合集', link: '/172/2' },
         { text: '产品目录', link: '/172/menu' },
       ],
     },
@@ -201,7 +201,7 @@ sidebar: {
       items: [
         { text: '发货时效', link: '/172/getting-started' },
         { text: '结算规则', link: '/172/configuration' },
-        { text: '注意事项', link: '/172/page' },
+        { text: '注意事项', link: '/172/zysx' },
         { text: '专业术语', link: '/172/frontmatter' },
         { text: '提高激活率', link: '/172/frontmatter' },
         { text: '激活问题', link: '/172/frontmatter' },
