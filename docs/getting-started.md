@@ -1,318 +1,69 @@
-# 快速上手
+# &#10024; 关于172号卡分销代理系统失败订单的处理指南 &#10024;
 
-<Linkcard url="https://vitepress.new/" title="在线体验及调试（StackBlitz 驱动）" description="https://vitepress.new/" logo="/svg/stackblitz_logo.svg"/>
+## &#128214; 可挽回订单
 
-## 前期工作
+### &#128195; 描述不清楚
+**处理办法**：重新下单，地址中包含以下模糊描述去掉，重新下单写xx市xx区xx路，更容易发货，速度也快。
 
-::: tip 说明
-已经安装 或者 熟练了，可以不用看此步骤
-:::
+### &#128269; 缺少参数
+**处理办法**：重新下单，地址补齐县级/地级/村级的描述更容易发货。
 
-::: details 必备工具
+### &#128683; 国政通拦截
+**原因**：办卡手机号和名字不是同一个人。
+**处理办法**：把手机号换成本人号码重新下单即可。
 
-* 必装：[安装nodejs](https://yiov.top/website/nodejs.html)
+### &#10071; 无法领卡
+**原因**：身份证年龄超出，身份证写错等。
+**处理办法**：重新换卡下单，正确填写身份证信息。
 
-* 建议安装：[安装vscode](https://yiov.top/website/VSCode.html)
+### &#128695; 地址不可达【你所在地不支持配送】
+**处理办法**：换个地区办理，然后转寄。
 
-* 可选安装：[安装git](https://yiov.top/website/pages/git.html)
-:::
+### &#10060; 占号失败【选的号码没有了】
+**处理办法**：重新下单办理，再选号。
 
+### &#128260; 正在执行中【还存在其他卡在配送】
+**处理办法**：联系平台客服进行撤单后在办理。
 
+## &#128218; 不可挽回订单
 
+### &#128683; 【黑名单】
+**原因**：办理用户之前有卡欠费没有缴清或多次恶意下单被禁止办理。
+**处理办法**：补清话费，等待拉出黑名单。
 
-:::: details pnpm / yarn / bun
+### &#128179; 【数量限制】
+**原因**：办理用户身份证多次下单同一个卡。
+**处理办法**：无需挽救，可换运营商办理。
 
-::: code-group
-```sh [pnpm]
-#安装pnpm
-npm install -g pnpm
-#查看版本号
-pnpm -v
-```
+### &#128680; 【高危失败】
+**原因**：地区不让发，发不了。
+**处理办法**：无。
 
-```sh [yarn]
-#安装yarn
-npm install -g yarn
-#查看版本号
-yarn -v
-```
+### &#9888;️ 【无法办理】
+**原因**：无法办理。
+**处理办法**：无。
 
-```sh [bun]
-#安装yarn
-npm install -g bun
-#查看版本号
-bun -v
-```
-:::
-::::
+### &#127961;️ 【无效地址】
+**原因**：地区无法办理。
+**处理办法**：无。
 
+### &#10060; 【无法下单】
+**原因**：无法办理，无法挽救。
+**处理办法**：换卡。
 
+### &#128241; 【不同外省号码】
+**原因**：外省手机号多，办不了。
+**处理办法**：无。
 
+### &#9888;️ ‍╞ 【身份证异常】
+**原因**：身份证被电信拉黑了，办不了。
+**处理办法**：无。
 
-:::: details 创建目录
+## &#128640; 172号卡分销系统介绍
+现在市面上手机流量卡的平台比较多，五花八门各种各样的都有，大家很难挑选一个靠谱的平台。今天咱们给大家介绍一下非常靠谱的号卡平台——172号卡分销系统。咱们这个平台呢有三个较大的特点：
 
-`win键+R键`，输入 `cmd`，打开命令终端
+1. **平台结算**：咱们由平台结算，四大运营商的卡通都有，都是次月的月底进行结算。
+2. **招分销商赚取分成**：可以招分销商来赚取分销差价分成。
+3. **避免偷单和抢单风险**：你代理的是你客户下的单，你是看不到数据的，这样避免了偷单和抢单的风险。另外，激活以后只要激活了，后台都会有显示佣金，遇到什么问题，第一时间可以解决掉。
 
-![](/cmd/cmd-01.png)
-
-
-
-先进入任意盘符，比如 `F` 盘
-
-```sh
-#盘符可以自定义 回车进入
-f:
-```
-
-![](/cmd/cmd-02.png)
-
-
-再创建文件夹名并进入
-
-```sh
-#创建目录并进入文件夹
-mkdir vitepress && cd vitepress
-```
-
-这样我的目录路径为 `F:\vitepress`
-
-我们先关闭cmd，一会介绍快捷进入的方法
-
-
-![](/cmd/cmd-03.png)
-
-::::
-
-
-
-
-
-
-
-## 安装
-
-### 安装依赖
-
-在项目目录上方的地址栏，上输入 `cmd` 回车可以快捷打开
-
-![](/cmd/cmd-04.png)
-
-![](/cmd/cmd-05.png)
-
-然后我们安装vitepress
-
-::: code-group
-```sh [pnpm]
-pnpm add -D vitepress
-```
-
-```sh [yarn]
-yarn add -D vitepress
-```
-
-```sh [npm]
-npm i -D vitepress
-```
-
-```sh [bun]
-bun add -D vitepress
-```
-:::
-
-![](/cmd/cmd-06.png)
-
-### 初始化向导
-
-
-::: code-group
-```sh [pnpm]
-pnpm vitepress init
-```
-
-```sh [yarn]
-yarn vitepress init
-```
-
-```sh [npm]
-npx vitepress init
-```
-
-```sh [bun]
-bunx vitepress init
-```
-:::
-
-
-::: details 文件位置放在 `./docs`
-文件夹名新手请参照下面，老手可以自己改
-
-如果你直接回车，则是放在了根目录 `./`，那你的 [脚本命令](#脚本命令) 也要修改一下
-:::
-
-
-
-```sh:no-line-numbers{4}
-T   Welcome to VitePress!
-|
-o  Where should VitePress initialize the config?
-|  ./docs
-|
-o  Site title:
-|  My Awesome Project
-|
-o  Site description:
-|  A VitePress Site
-|
-o  Theme:
-|  Default Theme
-|
-o  Use TypeScript for config and theme files?
-|  Yes
-|
-o  Add VitePress npm scripts to package.json?
-|  Yes
-|
-—  Done! Now run npm run docs:dev and start writing.
-```
-
-::: tip Vue 作为对等依赖
-如果您打算使用 Vue 组件或 API 进行自定义，您还应该显式 [安装 Vue](./components.md#安装) 作为对等依赖项
-
-如果你不懂，我们先暂时不看，我们后面会详细说
-:::
-
-
-### 脚本命令
-
-默认不用改，在 `package.json` 中可以查看
-
-::: warning 建议
-在里面添加一个 `"type": "module",` ，避免有时出现未知错误
-:::
-
-```json{6}
-{
-  "devDependencies": {
-    "vitepress": "^1.3.4"
-  },
-  "packageManager": "pnpm@8.6.10+sha1.98fe2755061026799bfa30e7dc8d6d48e9c3edf0",
-  "type": "module",
-  "scripts": { 
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
-  }
-}
-```
-
-
-
-
-### git忽略项
-
-添加 `.gitignore` 文件，主要用于上传到gitee/github时，忽略这些文件不上传
-
-```sh
-echo node_modules >> .gitignore
-echo cache >> .gitignore
-echo dist >> .gitignore
-```
-
-![](/cmd/cmd-07.png)
-
-
-
-## 启动
-
-本地启动开发环境，来开发你的网站
-
-
-::: code-group
-```sh [pnpm]
-pnpm run docs:dev
-```
-
-```sh [yarn]
-yarn docs:dev
-```
-
-```sh [npm]
-npm run docs:dev
-```
-
-```sh [bun]
-bun run docs:dev
-```
-:::
-
-
-::: details 为什么我启动不了
-如果你在 [初始化向导](#初始化向导) 直接回车，使用的是 `./` ，而不是 `./doc`，这里就是 `pnpm run dev`
-
-在其 [脚本命令](#脚本命令) 的 `scripts` 中也可以看到
-:::
-
-
-生成了一个本地 `5173` 端口的链接，复制到浏览器打开进行预览
-
-```sh:no-line-numbers{9}
-F:\vitepress>pnpm run docs:dev
-
-> @ docs:dev F:\vitepress
-> vitepress dev docs
-
-
-  vitepress v1.3.4
-
-  ➜  Local:   http://localhost:5173/
-  ➜  Network: use --host to expose
-  ➜  press h to show help
-```
-
-
-
-
-按 `Ctrl+C键` 即可退出开发模式
-
-我们可以关闭cmd，以后全程用 [VScode](https://yiov.top/website/VSCode.html) 了
-
-![](/cmd/cmd-08.png)
-
-
-
-## 相关
-
-无特殊情况，不需要了解
-
-:::: details 拓展：启动端口修改
-
-若无必要，不用修改，需要在 [脚本命令](#脚本命令) 中修改端口
-
-这样就是 `8080` 端口启动了
-
-```json{2}
-  "scripts": {
-    "docs:preview": "vitepress preview docs --port 8080" // [!code focus]
-  }
-```
-::::
-
-
-:::: details 拓展：其他启动命令
-
-你也可以直接调用命令
-
-::: code-group
-```sh [pnpm]
-pnpm exec vitepress dev docs
-```
-
-```sh [npm]
-npx vitepress dev docs
-```
-
-```sh [bun]
-bunx vitepress dev docs
-```
-:::
-::::
+现在，172号卡分销系统平台是免费对大家开放的，或许以后会收费但是现在是免费的。先到先得，如果想入驻加盟这个平台的话，抓紧时间联系公众号商务客服哦！
