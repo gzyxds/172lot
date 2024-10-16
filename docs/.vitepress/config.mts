@@ -108,9 +108,9 @@ export default defineConfig({
 
     //导航栏
     nav: [
-      { text: '🏚首页', link: '/' },
+      { text: '🏚172号卡', link: '/' },
       {
-        text: '📝简介',
+        text: '📝产品简介',
         items: [
           {
             // 分组标题1
@@ -148,7 +148,7 @@ export default defineConfig({
       },
       // { text: `vitepress ${ devDependencies.vitepress.replace('^','') }`, link: 'https://vitepress.dev/zh/', noIcon: true },
       {
-        text: '🎨产品',
+        text: '🎨产品服务',
         items: [
           { text: '172号卡', link: 'https://172.lot-ml.com/ProductEn/Index/1a654e0b341cadd2' },
           { text: '流量卡', link: 'https://172.lot-ml.com/ProductEn/Index/1a654e0b341cadd2' },
@@ -160,7 +160,7 @@ export default defineConfig({
         ],
       },
       {
-        text: '🛠️服务',
+        text: '🛠️服务中心',
         items: [
           { text: '常见问题', link: '/lot' },
           { text: '客户支持', link: '/services/faq' },

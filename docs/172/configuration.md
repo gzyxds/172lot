@@ -1,181 +1,30 @@
-# 配置
+# 抖音直播话术及注意事项
 
+发表于 2024-07-21 15:00:19
 
+请认真阅读完以免造成不必要的麻烦。
 
-## 目录
+代理应避免用户差评影响店铺，禁止宣传保号套餐，禁止虚假宣传，禁止引导客户短期使用或注销，直播间禁止出现违禁词，订单结算后无故注销。
 
-搭建完成后，已经有了一个完善的目录
+恶意套取佣金情况我司有权拉黑并且追回佣金终止合作。
 
-在此基础上，我们可以进行修改和新增
+## 一、直播话术参考
 
-```
-.
-├─ docs
-│  ├─ .vitepress
-│  │  └─ config.mts          <-- 配置文件已由ts变成mts
-│  ├─ api-examples.md        <-- 文章1
-│  ├─ markdown-examples.md   <-- 文章2
-│  ├─ guide                  <-- 新增目录
-│  │   └─ index.md           <-- 新增目录的首页
-│  └─ index.md               <-- 首页
-└─ package.json
-```
+(仅作为参考具体请按套餐标准去改编)
 
-生成的 HTML 页面会是这样：
+平时流量不够用，月租很贵的，爱打游戏爱看电影的哥姐，想试试水的点击右下方链接去拍，拍下解决流量问题，早拍早发货，早用早省钱，拍完回来扣手机尾号优先审核，在直播间没有任何试错成本的，不止自己手机能用，家里的平板也可以，还能给流量不够用的家人开热点，想要一个省钱的，大流量不限速的我们今天尽力给大家安排一张，咱们家卡有些地区已经抢光了，有名额的大家抓紧下单，越往后抢光的越多名额越少，如果抢完了我们也是不补单不加单的，接听电话免费接收短信免费，全部都是正规卡官方可查的可以正常接打电话发短信的，大家有什么问题可以打在公屏上，没有的话咱们可以左下角先拍下占个名额，想要加急审核的想优先审核的你们可以把尾号打在公屏上，给xxx安排个优先审核啊，去秒拍秒领就可以，官方可以查官方可以验的，正规套餐资费，没有额外的扣费隐形的消费捆绑消费朋友们，全程高速网速给到大家的是一个正规的号卡号段，不是物某卡不是虚拟号，打电话发短信注册软件全部支持，开卡的话是需要付费的，因为不充费的话是停机状态，停机是没有办法用的，每个月有_流量，不限网速不限APP不限地区，4G5G支持，不虚标不卡顿的通用高速流量，并且我们给到大家首月免月租，从下个月开始才给大家扣费的，我们平时去包流量个G都要百十块钱的，今天在我直播间里首冲元能用_个月，出去旅行也是可以用的，因为有些地区已经没名额了所以有名额的宝宝可以先去下单，我们这些卡也是拿出来做福利的，收到货觉得好的宝宝给个好评。
 
-```
-api-examples.md         -->    /api-examples.html
-markdown-examples.md    -->    /markdown-examples.html
-index.md                -->    /index.html (可以通过 / 访问)
-guide/index.md          -->    /guide/index.html (可以通过 /guide/ 访问)
-```
+## 二、带货易违规事项
 
+1. 含有虚假夸大、超范围描述、虚构商品来源背景、不实信息等虚假宣传用语；
+2. 使用“国家级”、“最高级”、“第一”等绝对化用语；
+3. 诱导消费者私下交易及存在其他可能侵害消费者合法权益的行为；
+4. 超范围使用“官方”、“授权”、“专卖”及其他带有类似含义的内容，例如，来源于普通类型店铺的商品使用“官方”、“授权”描述用语；
+5. 法律法规、平台规则禁止的其他信息内容。
+6. 使用"清仓处理"、"低价商品"、"超值价格"等表达吸引眼球，同时以"商品憋单"、"商品无库存"等方式，引导消费者的误解的表述。
 
+## 三、代理不能在直播间谈论招聘招商加盟事宜，不能引导用户去投资
 
+## 四、敏感词汇与话题
 
-## 基础配置
-
-在当前目录，`右键用 vscode 打开` ，[没有的请自行安装VScode](https://yiov.top/website/VSCode.html)
-
-![](/vscode/vscode-01.png)
-
-然后按 [Ctrl+\`(~) 键](#基础配置) （ESC下面的那个键），调出终端，正式开始开发
-
-![](/vscode/vscode-02.png)
-
-
-展开右侧目录，找到 `config.mts`
-
-```md{4}
-.
-├─ docs
-│  ├─ .vitepress
-│  │  └─ config.mts           <--  配置文件，支持js、ts、mjs、mts
-│  ├─ api-examples.md
-│  ├─ markdown-examples.md
-│  └─ index.md
-└─ package.json
-```
-
-![](/vscode/vscode-03.png)
-
-
-配置已经写好了，在此基础上修改就行了
-
-```ts
-import { defineConfig } from 'vitepress'
-
-// https://vitepress.dev/reference/site-config
-export default defineConfig({
-  title: "My Awesome Project",
-  description: "A VitePress Site",
-  themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
-})
-```
-
-
-
-
-:::: details 如何重新进入开发模式
-
-::: tip 如何退出
-ctrl+c 即可退出开发模式
-:::
-
-::: code-group
-```sh [pnpm]
-pnpm run docs:dev
-```
-
-```sh [yarn]
-yarn docs:dev
-```
-
-```sh [npm]
-npm run docs:dev
-```
-
-```sh [bun]
-bun run docs:dev
-```
-:::
-::::
-
-
-
-
-
-## 纯净链接
-
-这是一个简单又麻烦的事，可以等网站初上线后，再来完善
-
-它需要服务器支持，默认情况下Vitepress的链接以 `.html` 结尾
-
-
-### 服务器支持
-
-* [Netlify](https://docs.netlify.com/get-started/) 和 [GitHub Pages](https://pages.github.com/) 是无需配置
-
-* [Vercel](https://vercel.com/docs/concepts/get-started) 需要在 [vercel.json 中启用 cleanUrls 选项](https://vercel.com/docs/projects/project-configuration#cleanurls)
-
-
-确保文章在引用是没有使用 `*md` 的后缀名
-
-```
-[Getting Started](./getting-started)
-[Getting Started](../guide/getting-started)
-```
-
-
-然后在 `config.mts` 中配置如下
-
-```ts{4}
-import { defineConfig } from 'vitepress'
-
-export default defineConfig({
-  cleanUrls:true, //开启纯净链接 // [!code focus]
-})
-```
-
-
-### 服务器不支持
-
-需要变更下目录，将原先的文档放入文件夹中
-
-原先的 `api-examples.md` 变成了 `api-examples/index.md`
-
-```md{5,7}
-.
-├─ docs
-│  ├─ .vitepress
-│  ├─ api-examples           
-│  │  └─ index.md            <-- 文章1
-│  ├─ markdown-examples      
-│  │  └─ index.md            <-- 文章2
-│  └─ index.md               <-- 首页
-└─ package.json
-```
-
-
-
-
+文明用语不能说脏话，包括不限于辱骂或带有攻击歧视性用语，不得谈论或表现低俗、色情、淫秽（包括嫖娼出轨）等；不得谈论国家、党、英雄事迹宣传迷信邪教内容；不得表演危险血腥，暴力内容。不得妄议新闻热点（军事、自然灾害、灾情），以上沾边的词汇都不能再直播间内谈论或表演。
