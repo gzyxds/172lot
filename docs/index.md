@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: 172号卡分销代理平台
+  name: 172号卡
   text: "🚀诚邀全国代理商"
   tagline: 运营商官方合作伙伴、大流量+超低月租！全国代理商火热招募中...
   image:
@@ -15,14 +15,14 @@ hero:
     - theme: brand
       text: 代理申请
       link: https://haoka.lot-ml.com/plugregper.html?agentid=90925
-    - theme: brand
+    - theme: alt
       text: 登入系统
       link: https://haoka.lot-ml.com/
     - theme: alt
-      text: APP下载
+      text: 联系客服
       link: https://haoka.lot-ml.com/plugregper.html?agentid=90925
     - theme: alt
-      text: 联系客服
+      text: 常见问题
       link: https://haoka.lot-ml.com/plugregper.html?agentid=90925
 
 
@@ -147,31 +147,29 @@ features:
     details: 我们致力于提供卓越的客户体验，确保每位用户都满意
     link: https://172.lot-ml.com/ProductEn/Index/1a654e0b341cadd2
     linkText: 客户反馈
-
-  - icon: 💼
+  - icon: 💰
     title: 零成本加盟
     details: 代理商无需支付任何代理费用即可开启流量卡推广业务，实现零成本创业，轻创业，享未来
-    link: https://haoka.lot-ml.com/plugregper.html?agentid=90925
-    linkText: 了解加盟详情
+    link: https://172.lot-ml.com/ProductEn/Index/1a654e0b341cadd2
+    linkText: 了解更多
 
   - icon: 🖥️
     title: 独立后台操作
     details: 通过独立后台，代理商可以清晰直观管理订单和一键式操作，大大提高了工作效率
-    link: https://haoka.lot-ml.com/plugregper.html?agentid=90925
+    link: https://172.lot-ml.com/ProductEn/Index/1a654e0b341cadd2
     linkText: 查看后台演示
 
   - icon: 🛠️
     title: 零售后服务
     details: 客户完成首冲后，可以直接享受运营商官方的客服支持，代理商无需承担售后服务压力
-    link: https://haoka.lot-ml.com/plugregper.html?agentid=90925
-    linkText: 了解售后政策
+    link: https://172.lot-ml.com/ProductEn/Index/1a654e0b341cadd2
+    linkText: 服务详情
 
   - icon: 👥
     title: 日间客服服务
     details: 直属本站的代理和订单都可以享受到本站官方的客服服务，有任何问题都可以迅速得到解决
-    link: https://haoka.lot-ml.com/plugregper.html?agentid=90925
+    link: https://172.lot-ml.com/ProductEn/Index/1a654e0b341cadd2
     linkText: 联系客服
-  
 ---
 
 

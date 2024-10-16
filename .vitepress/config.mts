@@ -146,6 +146,14 @@ export default defineConfig({ // 配置
           },
         ],
       },
+      {
+        text: '🤝代理加盟',
+        link: 'https://haoka.lot-ml.com/plugreg.html?agentid=90925',
+      },
+      {
+        text: '🔑登入系统',
+        link: 'https://haoka.lot-ml.com/login.html',
+      },
       // { text: `vitepress ${ devDependencies.vitepress.replace('^','') }`, link: 'https://vitepress.dev/zh/', noIcon: true },
       {
         text: '🎨产品服务',
@@ -180,27 +188,35 @@ sidebar: {
       text: '&#128216; 介绍',
       collapsed: false,
       items: [
-        { text: '前言', link: '/172/preface' },
+        { text: '172号卡介绍', link: '/172/preface' },
+        { text: '免费领卡', link: '/172/preface' },
+        { text: '产品合集', link: '/172/preface' },
+        { text: '产品目录', link: '/172/menu' },
       ],
     },
     {
       //分组标题2
-      text: '&#128295; 基础配置',
+      text: '&#128295; 知识库',
       collapsed: false,
       items: [
         { text: '发货时效', link: '/172/getting-started' },
-        { text: '配置', link: '/172/configuration' },
-        { text: '页面', link: '/172/page' },
-        { text: 'Frontmatter', link: '/172/frontmatter' },
+        { text: '结算规则', link: '/172/configuration' },
+        { text: '注意事项', link: '/172/page' },
+        { text: '专业术语', link: '/172/frontmatter' },
+        { text: '提高激活率', link: '/172/frontmatter' },
+        { text: '激活问题', link: '/172/frontmatter' },
+        { text: '助理腾飞', link: '/172/frontmatter' },
+        { text: '撤单方法', link: '/172/frontmatter' },
+        { text: '专业术语', link: '/172/frontmatter' },
       ],
     },
     {
       //分组标题3
-      text: '&#128640; 进阶玩法',
+      text: '&#128640; 常见问题',
       collapsed: false,
       items: [
-        { text: 'Markdown', link: '/172/markdown' },
-        { text: '团队', link: '/172/team' },
+        { text: '问题解答', link: '/172/reply' },
+        { text: '代理答疑', link: '/172/answer' },
         { text: '静态部署', link: '/172/assets' },
         { text: '样式美化', link: '/172/style' },
         { text: '组件', link: '/172/components' },
@@ -212,16 +228,17 @@ sidebar: {
     },
     {
       //分组标题3
-      text: '&#127760; 其他站点',
+      text: '&#127760; 快捷导航',
       collapsed: false,
       items: [
-        { text: 'VuePress', link: 'https://vuepress.yiov.top/' },
-        { text: '劝学录教程', link: 'https://yiov.top/' },
-        { text: '个人主页', link: 'https://yingyayi.com/' },
+        { text: '免费领卡', link: 'https://vuepress.yiov.top/' },
+        { text: '注册登入', link: 'https://yiov.top/' },
+        { text: '小程序', link: 'https://yingyayi.com/' },
+        { text: 'APP下载', link: 'https://yingyayi.com/' },
       ],
     },
   ],
-   //分组标题3
+   //分组标题
   '/lot/': [
     {
       text: 'FAQ &#128587;‍♂️',

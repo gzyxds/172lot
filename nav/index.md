@@ -15,7 +15,3 @@ VitePress也能做导航，Amazing！[@茂茂大神](https://github.com/maomao19
 * ahua：[仓库](https://github.com/ahua666/StarNavigation) 丨 [DEMO](https://star-navigation.vercel.app/)
 :::
 
-
-## 新建布局
-
-打开 `docs/.vitepress/theme/index.ts` 文件
