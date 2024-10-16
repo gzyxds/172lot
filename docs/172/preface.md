@@ -1,4 +1,6 @@
 
+![微信二维码](/public/imges/wx.png)
+
 <div style="text-align: center;">
 <div style="display: flex; justify-content: center; flex-wrap: wrap;">
   <div style="text-align: center; margin: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 10px; overflow: hidden;">
