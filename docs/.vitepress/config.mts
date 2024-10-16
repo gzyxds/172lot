@@ -180,7 +180,7 @@ sidebar: {
       text: '&#128216; 介绍',
       collapsed: false,
       items: [
-        { text: '前言', link: '/preface' },
+        { text: '前言', link: '/172/preface' },
       ],
     },
     {
@@ -324,6 +324,12 @@ sidebar: {
 
   },
 
-
+  // 添加404页面配置
+  notFound: {
+    title: '页面未找到',
+    quote: '抱歉，您访问的页面不存在。',
+    linkText: '返回首页',
+    linkTo: '/'
+  },
 
 })
