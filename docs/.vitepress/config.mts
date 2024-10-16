@@ -270,8 +270,8 @@ sidebar: {
       },
     },
 
-
-
+    // 忽略死链接
+    ignoreDeadLinks: true,
     //社交链接
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Yiov/vitepress-doc' },
