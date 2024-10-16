@@ -1,6 +1,5 @@
-![项目文档封面](/imges/hd.png)
+ <img src="/imges/hd.png" alt="项目文档封面" style="width: 100%; max-width: 150px; height: auto;" />
 
-![项目文档封面] (https://haoka.lot-ml.com/imges/hd.png)
 <div style="text-align: center;">
 <div style="display: flex; justify-content: center; flex-wrap: wrap;">
   <div style="text-align: center; margin: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 10px; overflow: hidden;">
