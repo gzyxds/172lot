@@ -272,6 +272,7 @@ sidebar: {
 
     // 忽略死链接
     ignoreDeadLinks: true,
+
     //社交链接
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Yiov/vitepress-doc' },
@@ -295,7 +296,7 @@ sidebar: {
 
     //页脚
     footer: {
-      message: 'Released under the 172号卡分销系统官网 License.',
+      message: 'Released under the 172号卡分销管理系统官网 License.',
       copyright: `Copyright © 2023-${new Date().getFullYear()} 备案号：<a href="https://beian.miit.gov.cn/" target="_blank">京****号</a>`,
     },
 
