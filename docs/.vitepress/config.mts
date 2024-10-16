@@ -14,7 +14,7 @@ export default defineConfig({
 
   // #region fav
   head: [   //favicon图标
-    ['link', { rel: 'icon', href: '/logo.png' }],
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
   ],
   // #endregion fav
 
@@ -85,7 +85,7 @@ export default defineConfig({
   //主题配置
   themeConfig: {
     //左上角logo
-    logo: '/logo.png',
+    logo: '/imges/logo.svg',
     siteTitle: '172号卡', //显示标题
 
     //设置站点标题 会覆盖title
@@ -108,7 +108,7 @@ export default defineConfig({
 
     //导航栏
     nav: [
-      { text: '🎉首页', link: '/' },
+      { text: '🏚首页', link: '/' },
       {
         text: '📝简介',
         items: [
@@ -116,17 +116,17 @@ export default defineConfig({
             // 分组标题1
             text: '介绍',
             items: [
-              { text: '前言', link: '/preface' },
+              { text: '前言', link: '/172/preface' },
             ],
           },
           {
             // 分组标题2
             text: '基础设置',
             items: [
-              { text: '快速上手', link: '/getting-started' },
-              { text: '配置', link: '/configuration' },
-              { text: '页面', link: '/page' },
-              { text: 'Frontmatter', link: '/frontmatter' },
+              { text: '发货时效', link: '/172/getting-started' },
+              { text: '配置', link: '/172/configuration' },
+              { text: '页面', link: '/172/page' },
+              { text: 'Frontmatter', link: '/172/frontmatter' },
             ],
           },
           {
@@ -134,14 +134,14 @@ export default defineConfig({
             text: '进阶玩法',
             items: [
               { text: 'Markdown', link: '/markdown' },
-              { text: '团队', link: '/team' },
-              { text: '静态部署', link: '/assets' },
-              { text: '样式美化', link: '/style' },
-              { text: '组件', link: '/components' },
-              { text: '布局插槽', link: '/layout' },
-              { text: '插件', link: '/plugin' },
-              { text: '更新及卸载', link: '/update' },
-              { text: '搭建导航', link: '/nav/' },
+              { text: '团队', link: '/172/team' },
+              { text: '静态部署', link: '/172/assets' },
+              { text: '样式美化', link: '/172/style' },
+              { text: '组件', link: '/172/components' },
+              { text: '布局插槽', link: '/172/layout' },
+              { text: '插件', link: '/172/plugin' },
+              { text: '更新及卸载', link: '/172/update' },
+              { text: '搭建导航', link: '/172/nav/' },
             ],
           },
         ],
@@ -150,13 +150,13 @@ export default defineConfig({
       {
         text: '🎨产品',
         items: [
-          { text: '172号卡', link: '/products/172' },
-          { text: '流量卡', link: '/products/data-card' },
-          { text: '导航', link: '/nav/mao' },
-          { text: '套餐方案', link: '/products/plans' },
-          { text: '优惠活动', link: '/products/promotions' },
-          { text: '企业解决方案', link: '/products/enterprise' },
-          { text: '合作伙伴', link: '/products/partners' }
+          { text: '172号卡', link: 'https://172.lot-ml.com/ProductEn/Index/1a654e0b341cadd2' },
+          { text: '流量卡', link: 'https://172.lot-ml.com/ProductEn/Index/1a654e0b341cadd2' },
+          { text: '网址导航', link: '/nav/mao' },
+          { text: '订单查询', link: 'https://haokawx.lot-ml.com/Search/Index' },
+          { text: '官方客服', link: 'https://syx0xk.qiyukf.com/client?k=1bba63d184c3fecce3532aacae755c47&wp=1&robotShuntSwitch=0' },
+          { text: '卡博士', link: 'https://172.lot-ml.com/ProductEn/Index/1a654e0b341cadd2' },
+          { text: '一证通查', link: 'https://getsimnum.caict.ac.cn/' }
         ],
       },
       {
@@ -167,79 +167,81 @@ export default defineConfig({
           { text: '联系我们', link: '/services/contact' },
         ],
       },
-      {text: '更新日志', link: '/changelog.md'},
+      {text: '最新消息', link: '/172/log.md'},
     ],
 
 
-    //侧边栏
-    sidebar: {
-      '/': [
-        {
-          //分组标题1
-          text: '介绍',
-          collapsed: false,
-          items: [
-            { text: '前言', link: '/preface' },
-          ],
-        },
-        {
-          //分组标题2
-          text: '基础配置',
-          collapsed: false,
-          items: [
-            { text: '快速上手', link: '/getting-started' },
-            { text: '配置', link: '/configuration' },
-            { text: '页面', link: '/page' },
-            { text: 'Frontmatter', link: '/frontmatter' },
-          ],
-        },
-        {
-          //分组标题3
-          text: '进阶玩法',
-          collapsed: false,
-          items: [
-            { text: 'Markdown', link: '/markdown' },
-            { text: '团队', link: '/team' },
-            { text: '静态部署', link: '/assets' },
-            { text: '样式美化', link: '/style' },
-            { text: '组件', link: '/components' },
-            { text: '布局插槽', link: '/layout' },
-            { text: '插件', link: '/plugin' },
-            { text: '更新及卸载', link: '/update' },
-            { text: '搭建导航', link: '/nav/' },
-          ],
-        },
-        {
-          //分组标题3
-          text: '其他站点',
-          collapsed: false,
-          items: [
-            { text: 'VuePress', link: 'https://vuepress.yiov.top/' },
-            { text: '劝学录教程', link: 'https://yiov.top/' },
-            { text: '个人主页', link: 'https://yingyayi.com/' },
-          ],
-        },
+
+//侧边栏
+sidebar: {
+  '/172/': [
+    {
+      //分组标题1
+      text: '&#128216; 介绍',
+      collapsed: false,
+      items: [
+        { text: '前言', link: '/preface' },
       ],
-      '/lot/': [
-        {
-          text: '常见问题',
-          items: [
-            { text: '使用教程', link: '/lot/' },
-            { text: '注册指南', link: '/lot/register' },
-            { text: '常见问题', link: '/lot/faq' },
-            { text: '佣金说明', link: '/lot/commission' }
-          ]
-        },
-        {
-          text: '平台介绍',
-          items: [
-            { text: '平台优势', link: '/lot/advantages' },
-            { text: '合作模式', link: '/lot/cooperation' },
-            { text: '成功案例', link: '/lot/cases' }
-          ]
-        }
+    },
+    {
+      //分组标题2
+      text: '&#128295; 基础配置',
+      collapsed: false,
+      items: [
+        { text: '发货时效', link: '/getting-started' },
+        { text: '配置', link: '/configuration' },
+        { text: '页面', link: '/page' },
+        { text: 'Frontmatter', link: '/frontmatter' },
+      ],
+    },
+    {
+      //分组标题3
+      text: '&#128640; 进阶玩法',
+      collapsed: false,
+      items: [
+        { text: 'Markdown', link: '/markdown' },
+        { text: '团队', link: '/team' },
+        { text: '静态部署', link: '/assets' },
+        { text: '样式美化', link: '/style' },
+        { text: '组件', link: '/components' },
+        { text: '布局插槽', link: '/layout' },
+        { text: '插件', link: '/plugin' },
+        { text: '更新及卸载', link: '/update' },
+        { text: '搭建导航', link: '/nav/' },
+      ],
+    },
+    {
+      //分组标题3
+      text: '&#127760; 其他站点',
+      collapsed: false,
+      items: [
+        { text: 'VuePress', link: 'https://vuepress.yiov.top/' },
+        { text: '劝学录教程', link: 'https://yiov.top/' },
+        { text: '个人主页', link: 'https://yingyayi.com/' },
+      ],
+    },
+  ],
+  '/lot/': [
+    {
+      text: 'FAQ &#128587;‍♂️',
+      items: [
+        { text: '使用教程', link: '/lot/' },
+        { text: '注册指南', link: '/lot/register' },
+        { text: '常见问题', link: '/lot/faq' },
+        { text: '佣金说明', link: '/lot/commission' }
       ]
     },
+    {
+      text: '平台介绍 &#127970;',
+      items: [
+        { text: '平台优势', link: '/lot/advantages' },
+        { text: '合作模式', link: '/lot/cooperation' },
+        { text: '成功案例', link: '/lot/cases' }
+      ]
+    }
+  ]
+},
+
 
 
 

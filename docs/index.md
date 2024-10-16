@@ -3,119 +3,149 @@ layout: home
 
 hero:
   name: 172号卡
-  text: "全国代理商免费申请代理"
-  tagline: 🚀运营商官方合作伙伴、大流量+超低月租！
+  text: "🚀诚邀全国代理商"
+  tagline: 运营商官方合作伙伴、大流量+超低月租！全国代理商火热招募中...
   image:
-    src: /logo.png
+    src: /imges/logo.svg
     alt: 172号卡
   actions:
     - theme: brand
-      text: 立即申请
-      link: /getting-started
+      text: 免费领卡
+      link: https://172.lot-ml.com/ProductEn/Index/1a654e0b341cadd2
+    - theme: brand
+      text: 代理申请
+      link: https://haoka.lot-ml.com/plugregper.html?agentid=90925
     - theme: alt
-      text: 查看详情
-      link: https://github.com/Yiov/vitepress-doc
-    - theme: sponsor
-      text: 查看教程
-      link: /nav/
+      text: 登入系统
+      link: https://haoka.lot-ml.com/
+    - theme: alt
+      text: 联系客服
+      link: https://haoka.lot-ml.com/plugregper.html?agentid=90925
+    - theme: alt
+      text: 常见问题
+      link: https://haoka.lot-ml.com/plugregper.html?agentid=90925
 
 
 
 features:
+  - icon: 📱
+    title: 中国移动
+    details: 中国移动官方合作，提供优质网络服务
+    link: https://172.lot-ml.com/ProductEn/Index/1a654e0b341cadd2
+    linkText: 查看移动套餐
+
+  - icon: 📞
+    title: 中国电信
+    details: 中国电信官方合作，稳定可靠的通信服务
+    link: https://172.lot-ml.com/ProductEn/Index/1a654e0b341cadd2
+    linkText: 浏览电信套餐
+
+  - icon: 📡
+    title: 中国联通
+    details: 中国联通官方合作，全面覆盖的网络
+    link: https://172.lot-ml.com/ProductEn/Index/1a654e0b341cadd2
+    linkText: 了解联通套餐
+
+  - icon: 📺
+    title: 中国广电
+    details: 中国广电官方合作，创新的通信解决方案
+    link: https://172.lot-ml.com/ProductEn/Index/1a654e0b341cadd2
+    linkText: 探索广电套餐
+  
   - icon: 💰
     title: 全网最高佣金
     details: 全网最高的佣金，快速实现流量变现
-    link: https://vitejs.cn/
+    link: https://haoka.lot-ml.com/plugregper.html?agentid=90925
     linkText: 了解佣金方案
 
   - icon: 🎭
     title: 全网最全卡池
     details: 全网最全的卡池，满足您的所有需求
-    link: /products/card-pool
+    link: https://haoka.lot-ml.com/plugregper.html?agentid=90925
     linkText: 查看卡池详情
 
   - icon: 📊
     title: 全网最优流量
     details: 全网最优的流量，满足您的所有需求
-    link: /products/data-plans
+    link: https://haoka.lot-ml.com/plugregper.html?agentid=90925
     linkText: 浏览流量套餐
 
   - icon: 📦
     title: 零库存压力
     details: 零库存压力，无需担心库存问题
-    link: /services/inventory-management
+    link: https://haoka.lot-ml.com/plugregper.html?agentid=90925
     linkText: 了解库存管理
 
   - icon: 🚚
     title: 全自动发货
     details: 全自动发货，无需人工干预
-    link: /services/auto-delivery
+    link: https://haoka.lot-ml.com/plugregper.html?agentid=90925
     linkText: 查看发货流程
 
   - icon: 🕰️
     title: 24小时客户服务
     details: 我们提供全天候的客户支持，随时解答您的疑问
-    link: /services/customer-support
+    link: https://haoka.lot-ml.com/plugregper.html?agentid=90925
     linkText: 联系客服
 
   - icon: 📱
     title: 灵活的套餐选择
     details: 提供多种套餐选择，满足不同用户的需求
-    link: /products/flexible-plans
+    link: https://haoka.lot-ml.com/plugregper.html?agentid=90925
     linkText: 查看套餐选项
     
   - icon: ✅
     title: 高质量服务保证
     details: 我们承诺提供高质量的服务，确保客户满意度
-    link: /services/quality-assurance
+    link: https://haoka.lot-ml.com/plugregper.html?agentid=90925
     linkText: 服务承诺
 
   - icon: 🚀
     title: 快速激活流程
     details: 简化的激活流程，让您快速开始使用我们的服务
-    link: /services/quick-activation
+    link: https://haoka.lot-ml.com/plugregper.html?agentid=90925
     linkText: 激活指南
 
   - icon: 📈
     title: 实时数据监控
     details: 提供实时数据监控功能，让您随时了解使用情况
-    link: /services/real-time-monitoring
+    link: https://haoka.lot-ml.com/plugregper.html?agentid=90925
     linkText: 查看监控功能
 
   - icon: 🔄
     title: 灵活的升级选项
     details: 提供灵活的升级选项，随时调整以满足您不断变化的需求
-    link: /services/upgrade-options
+    link: https://haoka.lot-ml.com/plugregper.html?agentid=90925
     linkText: 升级方案
 
   - icon: 🌐
     title: 全国覆盖
     details: 我们的服务覆盖全国各地，无论您在哪里都能享受到优质服务
-    link: /services/nationwide-coverage
+    link: https://haoka.lot-ml.com/plugregper.html?agentid=90925
     linkText: 查看覆盖范围
 
   - icon: 💼
     title: 专业团队支持
     details: 拥有专业的技术和客服团队，为您提供全方位的支持
-    link: /about/our-team
+    link: https://haoka.lot-ml.com/plugregper.html?agentid=90925
     linkText: 认识我们的团队
 
   - icon: 🔒
     title: 安全可靠
     details: 采用先进的安全技术，保护您的个人信息和数据安全
-    link: /services/security
+    link: https://haoka.lot-ml.com/plugregper.html?agentid=90925
     linkText: 安全保障
 
   - icon: 🔍
     title: 透明定价
     details: 我们的定价透明公开，没有隐藏费用，让您放心使用
-    link: /products/pricing
+    link: https://haoka.lot-ml.com/plugregper.html?agentid=90925
     linkText: 查看价格详情
 
   - icon: 🌟
     title: 优质客户体验
     details: 我们致力于提供卓越的客户体验，确保每位用户都满意
-    link: /services/customer-experience
+    link: https://172.lot-ml.com/ProductEn/Index/1a654e0b341cadd2
     linkText: 客户反馈
   
 ---
