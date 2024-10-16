@@ -1,4 +1,4 @@
- <img src="/imges/hd.png" alt="项目文档封面" style="width: 100%; max-width: 150px; height: auto;" />
+ <img src="/imges/hd.png" alt="项目文档封面" />
 
 <div style="text-align: center;">
 <div style="display: flex; justify-content: center; flex-wrap: wrap;">
