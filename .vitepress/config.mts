@@ -6,17 +6,20 @@ import { devDependencies } from '../../package.json' // 导入package.json
 
 import { groupIconMdPlugin, groupIconVitePlugin, localIconLoader } from 'vitepress-plugin-group-icons'
 
-export default defineConfig({ // 配置
+export default defineConfig({      // 配置
   lang: 'zh-CN', // 语言
   title: "172号卡分销系统官网_手机流量卡分销管理平台", // 标题
   keywords: "172号卡,流量卡,物联卡,电信,移动,联通,广电,在线申请,办理,分销,代理,合伙人,流量卡业务,丰厚收益", // 关键词
   description: "172号卡官网！我们提供最新的电信、移动、联通和广电流量卡及物联卡的在线申请和办理服务。加入我们的分销管理平台，成为代理合伙人，轻松管理您的流量卡业务，获取丰厚收益。", // 描述
-
+ 
   // #region fav
-  head: [   //favicon图标
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
-  ],
+     head: [   //favicon图标
+       ['link', { rel: 'icon', href: '/imges/logo.png' }],
+     ],
+
+  
   // #endregion fav
+  
 
   base: '/', //网站部署到github的vitepress这个仓库里
 
@@ -51,7 +54,7 @@ export default defineConfig({ // 配置
     image: {
       lazyLoading: true
     },
-
+    
     // 组件插入h1标题下
     config: (md) => {
       md.renderer.rules.heading_close = (tokens, idx, options, env, slf) => {
@@ -85,8 +88,9 @@ export default defineConfig({ // 配置
   //主题配置
   themeConfig: {
     //左上角logo
-    logo: '/imges/logo.svg',
-    siteTitle: '172号卡', //显示标题
+    logo: '/imges/logo.png',
+    siteTitle: '172号卡官网', //显示标题
+  
 
     //设置站点标题 会覆盖title
     //siteTitle: 'Hello World',
@@ -171,8 +175,8 @@ export default defineConfig({ // 配置
         text: '🛠️服务中心',
         items: [
           { text: '常见问题', link: '/lot' },
-          { text: '客户支持', link: '/services/faq' },
-          { text: '联系我们', link: '/services/contact' },
+          { text: '客户支持', link: '/172/faq' },
+          { text: '联系我们', link: '/172/contact' },
         ],
       },
       {text: '最新消息', link: '/172/log.md'},
@@ -288,6 +292,8 @@ sidebar: {
       },
     },
 
+
+ 
     // 忽略死链接
     ignoreDeadLinks: true,
 
