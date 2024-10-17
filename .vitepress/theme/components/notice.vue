@@ -20,8 +20,8 @@ setTimeout(function () { visible.value = false }, 5000);
             <p>本次更新：新公告样式</p>
             <p class="notice-domain">
                 <strong>
-                    详细教程：<a href="https://vitepress.yiov.top/layout.html#%E5%85%AC%E5%91%8A"
-                        target="_blank">vitepress.yiov.top</a>
+                    立即申请代理：<a href="https://haoka.lot-ml.com/plugreg.html?agentid=90925"
+                        target="_blank">urlka.cn</a>
                 </strong>
             </p>
             <p>官方社群：扫描加入社区</p>
