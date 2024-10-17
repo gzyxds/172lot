@@ -1,11 +1,6 @@
 <img src="https://hk.xuanhaoka.com/apps/image/lb1.c9cff5be.jpg" alt="海报" class="poster">
 
-<div style="display: flex; justify-content: center; align-items: center; flex-wrap: nowrap; overflow-x: auto;">
-  <img src="http://wap.kaboshihaoka.com/xa/images/liantong.png" alt="联通海报" style="max-width: 30%; height: auto; margin: 0 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-radius: 8px;">
-  <img src="http://wap.kaboshihaoka.com/xa/images/yidong.png" alt="移动海报" style="max-width: 30%; height: auto; margin: 0 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-radius: 8px;">
-  <img src="http://wap.kaboshihaoka.com/xa/images/dianxin.png" alt="电信海报" style="max-width: 30%; height: auto; margin: 0 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-radius: 8px;">
-</div>
-<br/>
+
 
 # 172号卡简介
 ## 🌟 公司概况
