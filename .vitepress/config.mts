@@ -227,8 +227,8 @@ export default defineConfig({      // 配置
           text: '&#127760; 快捷导航',
           collapsed: false,
           items: [
-            { text: '🎁 免费领卡', link: 'https://vuepress.yiov.top/' },
-            { text: '🔑 注册登入', link: 'https://yiov.top/' },
+            { text: '🎁 免费领卡', link: 'urlka.cn' },
+            { text: '🔑 注册登入', link: 'urlka.cn' },
             { text: '📱 小程序', link: 'https://urlka.cn/' },
             { text: '📲 APP下载', link: 'https://urlka.cn/' },
           ],
