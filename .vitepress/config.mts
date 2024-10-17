@@ -118,14 +118,14 @@ export default defineConfig({      // 配置
         items: [
           {
             // 分组标题1
-            text: '关于我们',
+            text: '🏢 关于我们',
             items: [
-              { text: '🏢 公司介绍', link: '/about/index' },
+              { text: '📝 公司介绍', link: '/about/index' },
             ],
           },
           {
             // 分组标题2
-            text: '知识库',
+            text: '📚 知识库',
             items: [
               { text: '🚀 发货时效', link: '/172/st' },
               { text: '💰 结算规则', link: '/172/sr' },
@@ -140,7 +140,7 @@ export default defineConfig({      // 配置
           },
           {
             // 分组标题3
-            text: '常见问题',
+            text: '📚 常见问题',
             items: [
               { text: '🔍 使用教程', link: '/markdown' },
               { text: '👨‍👦‍👦 注册指南', link: '/172/team' },
@@ -150,13 +150,14 @@ export default defineConfig({      // 配置
           },
         ],
       },
+     
       {
-        text: '🤝代理加盟',
-        link: 'https://haoka.lot-ml.com/plugreg.html?agentid=90925',
-      },
-      {
-        text: '🔑登入系统',
-        link: 'https://haoka.lot-ml.com/login.html',
+        text: '👥 代理加盟',
+        items: [
+          { text: '👤 个人注册', link: 'https://haoka.lot-ml.com/plugreg.html?agentid=90925' },
+          { text: '🏢 企业注册', link: 'https://haoka.lot-ml.com/plugreg.html?agentid=90925' },
+          { text: '🔐 登入系统', link: 'https://haoka.lot-ml.com/login.html' },
+        ],
       },
       // { text: `vitepress ${ devDependencies.vitepress.replace('^','') }`, link: 'https://vitepress.dev/zh/', noIcon: false },
       {
@@ -201,7 +202,7 @@ export default defineConfig({      // 配置
           ]
         },
         {
-          text: '&#128295; 知识库',
+          text: '📝 知识库',
           collapsed: false,
           items: [
             { text: '🚀 发货时效', link: '/172/st' },
@@ -284,8 +285,24 @@ export default defineConfig({      // 配置
             { text: '📊 产品介绍', link: '/172/product' },
             { text: '💼 代理加盟', link: '/172/agent' },
             { text: '🔧 使用指南', link: '/172/guide' },
-            { text: '❓ 常见问题', link: '/172/faq' },
-            { text: '📞 联系我们', link: '/172/contact' }
+            { text: '❓ 常见问题', link: '/172/fqa' },
+            { text: '📞 联系我们', link: '/172/contact' },
+            { text: '🧙‍♂️ 小知识', link: '/172/tk' }
+          ]
+        },
+        {
+          text: '📚 知识库',
+          collapsed: false,
+          items: [
+            { text: '🚀 发货时效', link: '/172/st' },
+            { text: '💰 结算规则', link: '/172/sr' },
+            { text: '🎤 直播话术', link: '/172/lls' },
+            { text: '🔍 专业术语', link: '/172/pt' },
+            { text: '🔝 提高下单', link: '/172/io' },
+            { text: '🔄 激活问题', link: '/172/ai' },
+            { text: '👨‍💻 助理腾飞', link: '/172/at' },
+            { text: '🔄 提高激活', link: '/172/ia' },
+            { text: '🔙 撤单方法', link: '/172/oac' }
           ]
         },
         {
