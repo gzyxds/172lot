@@ -186,15 +186,15 @@ features:
 ### 
 <div style="display: flex; justify-content: center; flex-wrap: wrap;">
   <div style="text-align: center; margin: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 10px; overflow: hidden;">
-    <img src="./public/imges/wx.png" alt="联系客服二维码" style="width: 250px; height: 250px;" />
+    <img src="./public/imges/清风物联.png" alt="关注我们" style="width: 250px; height: 250px;" />
     <p>关注我们</p>
   </div>
   <div style="text-align: center; margin: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 10px; overflow: hidden;">
-    <img src="./public/imges/wx.png" alt="联系客服二维码" style="width: 250px; height: 250px;" />
-    <p>扫码注册</p>
+    <img src="./public/imges/wx.png" alt="联系客服" style="width: 250px; height: 250px;" />
+    <p>联系客服</p>
   </div>
   <div style="text-align: center; margin: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 10px; overflow: hidden;">
-    <img src="./public/imges/wx.png" alt="二维码1" style="width: 250px; height: 250px;" />
+    <img src="https://haokaapi.lot-ml.com/Temps/ShopCode/90925.png" alt="在线领卡" style="width: 250px; height: 250px;" />
     <p>在线领卡</p>
   </div>
   <div style="text-align: center; margin: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 10px; overflow: hidden;">
