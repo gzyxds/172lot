@@ -110,7 +110,7 @@ export default defineConfig({      // 配置
       },
     },
 
-    //导航栏
+    //导航栏开始
     nav: [
       { text: '🏚172号卡', link: '/' },
       {
@@ -142,16 +142,11 @@ export default defineConfig({      // 配置
             // 分组标题3
             text: '常见问题',
             items: [
-              { text: '🔍 Markdown', link: '/markdown' },
-              { text: '👨‍👦‍👦 团队', link: '/172/team' },
-              { text: '🧩 静态部署', link: '/172/assets' },
-              { text: '🎨 样式美化', link: '/172/style' },
-              { text: '🧩 组件', link: '/172/components' },
-              { text: '🧩 布局插槽', link: '/172/layout' },
-              { text: '🧩 插件', link: '/172/plugin' },
-              { text: '更新及卸载', link: '/172/update' },
-              { text: '搭建导航', link: '/172/nav/' },
-            ],
+              { text: '🔍 使用教程', link: '/markdown' },
+              { text: '👨‍👦‍👦 注册指南', link: '/172/team' },
+              { text: '🧩 常见问题', link: '/172/assets' },
+              { text: '🎨 佣金说明', link: '/172/style' },
+             ],
           },
         ],
       },
@@ -184,9 +179,9 @@ export default defineConfig({      // 配置
           { text: '📞 联系我们', link: '/172/contact' },
         ],
       },
-      {text: '🔔 最新消息', link: '/172/log.md'},
+      {text: '🔔 最新消息', link: '/lot/log.md'},
     ],
-
+//导航栏结束
 
 
     //侧边栏
@@ -227,14 +222,7 @@ export default defineConfig({      // 配置
           items: [
             { text: '💬 问题解答', link: '/172/reply' },
             { text: '🤔 代理答疑', link: '/172/answer' },
-            { text: '🔍 静态部署', link: '/172/assets' },
-            { text: '🎨 样式美化', link: '/172/style' },
-            { text: '🧩 组件', link: '/172/components' },
-            { text: '🧩 布局插槽', link: '/172/layout' },
-            { text: '🧩 插件', link: '/172/plugin' },
-            { text: '🔄 更新及卸载', link: '/172/update' },
-            { text: '🧩 搭建导航', link: '/172/nav/' },
-          ],
+           ],
         },
         {
           text: '&#127760; 快捷导航',

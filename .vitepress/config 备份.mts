@@ -110,7 +110,7 @@ export default defineConfig({      // 配置
       },
     },
 
-    //导航栏
+    //导航栏开始
     nav: [
       { text: '🏚172号卡', link: '/' },
       {
@@ -142,16 +142,11 @@ export default defineConfig({      // 配置
             // 分组标题3
             text: '常见问题',
             items: [
-              { text: '🔍 Markdown', link: '/markdown' },
-              { text: '👨‍👦‍👦 团队', link: '/172/team' },
-              { text: '🧩 静态部署', link: '/172/assets' },
-              { text: '🎨 样式美化', link: '/172/style' },
-              { text: '🧩 组件', link: '/172/components' },
-              { text: '🧩 布局插槽', link: '/172/layout' },
-              { text: '🧩 插件', link: '/172/plugin' },
-              { text: '更新及卸载', link: '/172/update' },
-              { text: '搭建导航', link: '/172/nav/' },
-            ],
+              { text: '🔍 使用教程', link: '/markdown' },
+              { text: '👨‍👦‍👦 注册指南', link: '/172/team' },
+              { text: '🧩 常见问题', link: '/172/assets' },
+              { text: '🎨 佣金说明', link: '/172/style' },
+             ],
           },
         ],
       },
@@ -184,9 +179,9 @@ export default defineConfig({      // 配置
           { text: '📞 联系我们', link: '/172/contact' },
         ],
       },
-      {text: '🔔 最新消息', link: '/172/log.md'},
+      {text: '🔔 最新消息', link: '/lot/log.md'},
     ],
-
+//导航栏结束
 
 
     //侧边栏
@@ -227,14 +222,7 @@ export default defineConfig({      // 配置
           items: [
             { text: '💬 问题解答', link: '/172/reply' },
             { text: '🤔 代理答疑', link: '/172/answer' },
-            { text: '🔍 静态部署', link: '/172/assets' },
-            { text: '🎨 样式美化', link: '/172/style' },
-            { text: '🧩 组件', link: '/172/components' },
-            { text: '🧩 布局插槽', link: '/172/layout' },
-            { text: '🧩 插件', link: '/172/plugin' },
-            { text: '🔄 更新及卸载', link: '/172/update' },
-            { text: '🧩 搭建导航', link: '/172/nav/' },
-          ],
+           ],
         },
         {
           text: '&#127760; 快捷导航',
@@ -284,6 +272,40 @@ export default defineConfig({      // 配置
             { text: '🚀 平台优势', link: '/lot/advantages' },
             { text: '🤝 合作模式', link: '/lot/cooperation' },
             { text: '👀 成功案例', link: '/lot/cases' }
+          ]
+        }
+      ],
+      '/172/': [
+        {
+          text: '&#128218; 172号卡',
+          collapsed: false,
+          items: [
+            { text: '🏠 首页', link: '/172/' },
+            { text: '📊 产品介绍', link: '/172/product' },
+            { text: '💼 代理加盟', link: '/172/agent' },
+            { text: '🔧 使用指南', link: '/172/guide' },
+            { text: '❓ 常见问题', link: '/172/faq' },
+            { text: '📞 联系我们', link: '/172/contact' }
+          ]
+        },
+        {
+          text: '&#128221; 业务操作',
+          collapsed: false,
+          items: [
+            { text: '🛒 下单流程', link: '/172/order' },
+            { text: '💳 激活指南', link: '/172/activate' },
+            { text: '🔄 套餐变更', link: '/172/change' },
+            { text: '📊 账单查询', link: '/172/bill' },
+            { text: '🔍 订单查询', link: '/172/query' }
+          ]
+        },
+        {
+          text: '&#128176; 财务相关',
+          collapsed: false,
+          items: [
+            { text: '💰 佣金政策', link: '/172/commission' },
+            { text: '🏦 结算规则', link: '/172/settlement' },
+            { text: '💳 提现说明', link: '/172/withdraw' }
           ]
         }
       ]
