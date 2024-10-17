@@ -1,4 +1,4 @@
-
+<img src="https://hk.xuanhaoka.com/apps/image/lb1.c9cff5be.jpg" alt="海报" class="poster">
 
 # 172号卡简介
 ## 🌟 公司概况

@@ -382,7 +382,7 @@ export default defineConfig({      // 配置
     //页脚
     footer: {
       message: 'Released under the 172号卡分销管理系统官网 License.',
-      copyright: `Copyright © 2023-${new Date().getFullYear()} 备案号：<a href="https://beian.miit.gov.cn/" target="_blank">京****号</a>`,
+      copyright: `Copyright © 2023-${new Date().getFullYear()} 备案号：<a href="https://beian.miit.gov.cn/" target="_blank">赣ICP备2023002309号-9</a>`,
     },
 
 

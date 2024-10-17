@@ -174,11 +174,6 @@ features:
   
 ---
 
-
-
-<confetti /> <!-- 烟花效果 -->
-<busuanzi /> <!-- 访问量统计 -->
-
 <!-- 联系我们 -->
 <div style="text-align: center;">
 
@@ -310,3 +305,5 @@ features:
   <img src="https://img.shields.io/badge/-GraphQL-FFF?logo=GraphQL&logoColor=E10098" alt="GraphQL" style="display: inline-block;" />&nbsp;
 </p>
 
+<confetti /> <!-- 烟花效果 -->
+<busuanzi /> <!-- 访问量统计 -->
