@@ -229,8 +229,8 @@ export default defineConfig({      // 配置
           items: [
             { text: '🎁 免费领卡', link: 'https://vuepress.yiov.top/' },
             { text: '🔑 注册登入', link: 'https://yiov.top/' },
-            { text: '📱 小程序', link: 'https://yingyayi.com/' },
-            { text: '📲 APP下载', link: 'https://yingyayi.com/' },
+            { text: '📱 小程序', link: 'https://urlka.cn/' },
+            { text: '📲 APP下载', link: 'https://urlka.cn/' },
           ],
         },
         {
@@ -279,7 +279,6 @@ export default defineConfig({      // 配置
           text: '&#128218; 172号卡',
           collapsed: false,
           items: [
-            { text: '🏠 首页', link: '/172/' },
             { text: '📊 产品介绍', link: '/172/product' },
             { text: '💼 代理加盟', link: '/172/agent' },
             { text: '🔧 使用指南', link: '/172/guide' },

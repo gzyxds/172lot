@@ -14,17 +14,17 @@ setTimeout(function () { visible.value = false }, 5000);
 
     <div v-if="visible" class="notice">
 
-        <h3 class="notice-title">网站公告</h3>
+        <h3 class="notice-title">💬网站公告</h3>
 
         <div class="notice-describe">
-            <p>本次更新：新公告样式</p>
+            <p>👅诚邀全国代理商</p>
             <p class="notice-domain">
                 <strong>
-                    点击>>：<a href="https://haoka.lot-ml.com/plugreg.html?agentid=90925"
+                    🚀🚀点击>>：<a href="https://haoka.lot-ml.com/plugreg.html?agentid=90925"
                         target="_blank">立即申请</a>
                 </strong>
             </p>
-            <p>官方社群：扫描加入社区</p>
+            <p>官方社群：扫码加入社群</p>
             <img class="notice-img" src="/qrcode.png">
         </div>
 
