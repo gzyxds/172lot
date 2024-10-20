@@ -180,7 +180,7 @@ export default defineConfig({      // 配置
           { text: '📞 联系我们', link: '/172/contact' },
         ],
       },
-      {text: '🔔 最新消息', link: '/lot/log.md'},
+      {text: '🔔 最新消息', link: '/172/log.md'},
     ],
 //导航栏结束
 
