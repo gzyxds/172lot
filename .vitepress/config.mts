@@ -162,7 +162,7 @@ export default defineConfig({      // 配置
       {
         text: '🎨产品服务',
         items: [
-          { text: '🏢 172号卡', link: 'https://172.lot-ml.com/ProductEn/Index/1a654e0b341cadd2' },
+          { text: '🏢 免费领卡', link: 'https://172.lot-ml.com/ProductEn/Index/1a654e0b341cadd2' },
           { text: '🌐 网址导航', link: '/nav/mao' },
           { text: '🔍 订单查询', link: 'https://haokawx.lot-ml.com/Search/Index' },
           { text: '💁 官方客服', link: 'https://syx0xk.qiyukf.com/client?k=1bba63d184c3fecce3532aacae755c47&wp=1&robotShuntSwitch=0' },
@@ -226,8 +226,8 @@ export default defineConfig({      // 配置
           text: '&#127760; 快捷导航',
           collapsed: false,
           items: [
-            { text: '🎁 免费领卡', link: 'urlka.cn' },
-            { text: '🔑 注册登入', link: 'urlka.cn' },
+            { text: '🎁 免费领卡', link: 'https://172.lot-ml.com/ProductEn/Index/1a654e0b341cadd2' },
+            { text: '🔑 注册登入', link: 'https://haoka.lot-ml.com/login.html' },
             { text: '🍎 苹果下载', link: 'https://apps.apple.com/us/app/172%E5%8F%B7%E5%8D%A1/id6471650035' },
             { text: '🤖 安卓下载', link: 'https://sj.qq.com/appdetail/com.canghai.haoka' },
             { text: '🖥️ 登入后台', link: 'https://haoka.lot-ml.com/login.html' },
@@ -238,10 +238,9 @@ export default defineConfig({      // 配置
           text: '&#128587;‍♂️ 常见问题',
           collapsed: false,
           items: [
-            { text: '🔍 使用教程', link: '/lot/' },
-            { text: '📝 注册指南', link: '/lot/register' },
-            { text: '❓ 基础问题', link: '/lot/faq' },
-            { text: '💰 佣金说明', link: '/lot/commission' }
+            { text: '🔍 使用教程', link: '/172/guide' },
+            { text: '❓ 基础问题', link: '/172/fqa' },
+            { text: '💰 佣金说明', link: '/172/pay' }
           ]
         }
       ],
@@ -278,9 +277,7 @@ export default defineConfig({      // 配置
           collapsed: false,
           items: [
             { text: '🛒 下单流程', link: '/172/order' },
-            { text: '💳 激活指南', link: '/172/activate' },
-            { text: '🔄 套餐变更', link: '/172/change' },
-            { text: '📊 账单查询', link: '/172/bill' },
+            { text: '🔍 常见问题', link: '/172/reply' },
             { text: '🔍 订单查询', link: 'https://haokawx.lot-ml.com/Search/Index' }
           ]
         },
