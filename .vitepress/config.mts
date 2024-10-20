@@ -125,7 +125,7 @@ export default defineConfig({      // 配置
           },
           {
             // 分组标题2
-            text: '📚 知识库',
+            text: '📚 常见问题',
             items: [
               { text: '🚀 发货时效', link: '/172/st' },
               { text: '💰 结算规则', link: '/172/sr' },
@@ -139,12 +139,12 @@ export default defineConfig({      // 配置
           },
           {
             // 分组标题3
-            text: '📚 常见问题',
+            text: '📚 基础问题',
             items: [
-              { text: '🔍 使用教程', link: '/markdown' },
+              { text: '🔍 使用教程', link: '/172/use' },
               { text: '👨‍👦‍👦 注册指南', link: '/172/team' },
-              { text: '🧩 常见问题', link: '/172/assets' },
-              { text: '🎨 佣金说明', link: '/172/style' },
+              { text: '🧩 常见问题', link: '/172/' },
+              { text: '🎨 佣金说明', link: '/172/' },
              ],
           },
         ],
@@ -163,19 +163,18 @@ export default defineConfig({      // 配置
         text: '🎨产品服务',
         items: [
           { text: '🏢 172号卡', link: 'https://172.lot-ml.com/ProductEn/Index/1a654e0b341cadd2' },
-          { text: '📶 流量卡', link: 'https://172.lot-ml.com/ProductEn/Index/1a654e0b341cadd2' },
           { text: '🌐 网址导航', link: '/nav/mao' },
           { text: '🔍 订单查询', link: 'https://haokawx.lot-ml.com/Search/Index' },
           { text: '💁 官方客服', link: 'https://syx0xk.qiyukf.com/client?k=1bba63d184c3fecce3532aacae755c47&wp=1&robotShuntSwitch=0' },
+          { text: '📶 流量卡', link: 'https://172.lot-ml.com/ProductEn/Index/1a654e0b341cadd2' },
+          { text: '🔍 一证通查', link: 'https://getsimnum.caict.ac.cn/' },
           { text: '🧙‍♂️ 卡博士', link: 'https://172.lot-ml.com/ProductEn/Index/1a654e0b341cadd2' },
-          { text: '🔍 一证通查', link: 'https://getsimnum.caict.ac.cn/' }
         ],
       },
       {
         text: '🛠️服务中心',
         items: [
-          { text: '🔍 常见问题', link: '/lot' },
-          { text: '💁 客户支持', link: '/172/faq' },
+          { text: '🔍 常见问题', link: '/172/fqa' },
           { text: '📞 联系我们', link: '/172/contact' },
         ],
       },
@@ -184,7 +183,7 @@ export default defineConfig({      // 配置
 //导航栏结束
 
 
-    //侧边栏
+    //侧边栏 开始
     sidebar: {
       '/about/': [
         {
@@ -196,12 +195,12 @@ export default defineConfig({      // 配置
             { text: '🚀 发展趋势', link: '/about/pc' },
             { text: '🔍 竞争格局', link: '/about/prc' },
             { text: '🎁 免费领卡', link: '/about/collect' },
-            { text: '📚 产品合集', link: '/about/dt' },
-            { text: '📦 产品目录', link: '/about/cl' },
+            // { text: '📚 产品合集', link: '/about/dt' },
+            // { text: '📦 产品目录', link: '/about/cl' },
           ]
         },
         {
-          text: '📝 知识库',
+          text: '📝 常见问题',
           collapsed: false,
           items: [
             { text: '🚀 发货时效', link: '/172/st' },
@@ -229,8 +228,10 @@ export default defineConfig({      // 配置
           items: [
             { text: '🎁 免费领卡', link: 'urlka.cn' },
             { text: '🔑 注册登入', link: 'urlka.cn' },
-            { text: '📱 小程序', link: 'https://urlka.cn/' },
-            { text: '📲 APP下载', link: 'https://urlka.cn/' },
+            { text: '🍎 苹果下载', link: 'https://apps.apple.com/us/app/172%E5%8F%B7%E5%8D%A1/id6471650035' },
+            { text: '🤖 安卓下载', link: 'https://sj.qq.com/appdetail/com.canghai.haoka' },
+            { text: '🖥️ 登入后台', link: 'https://haoka.lot-ml.com/login.html' },
+            { text: '💬 小程序端', link: '/lot/wechat' }
           ],
         },
         {
@@ -239,56 +240,27 @@ export default defineConfig({      // 配置
           items: [
             { text: '🔍 使用教程', link: '/lot/' },
             { text: '📝 注册指南', link: '/lot/register' },
-            { text: '❓ 常见问题', link: '/lot/faq' },
+            { text: '❓ 基础问题', link: '/lot/faq' },
             { text: '💰 佣金说明', link: '/lot/commission' }
-          ]
-        },
-        {
-          text: '&#127970; 平台介绍',
-          collapsed: false,
-          items: [
-            { text: '🚀 平台优势', link: '/lot/advantages' },
-            { text: '🤝 合作模式', link: '/lot/cooperation' },
-            { text: '👀 成功案例', link: '/lot/cases' }
           ]
         }
       ],
-      '/lot/': [
-        {
-          text: 'FAQ &#128587;‍♂️',
-          collapsed: false,
-          items: [
-            { text: '🔍 使用教程', link: '/lot/' },
-            { text: '📝 注册指南', link: '/lot/register' },
-            { text: '❓ 常见问题', link: '/lot/faq' },
-            { text: '💰 佣金说明', link: '/lot/commission' }
-          ]
-        },
-        {
-          text: '平台介绍 &#127970;',
-          collapsed: false,
-          items: [
-            { text: '🚀 平台优势', link: '/lot/advantages' },
-            { text: '🤝 合作模式', link: '/lot/cooperation' },
-            { text: '👀 成功案例', link: '/lot/cases' }
-          ]
-        }
-      ],
-      '/172/': [
+
+
+      '/172/': [    //172号卡侧边栏
         {
           text: '&#128218; 172号卡',
           collapsed: false,
           items: [
-            { text: '📊 产品介绍', link: '/172/product' },
             { text: '💼 代理加盟', link: '/172/agent' },
             { text: '🔧 使用指南', link: '/172/guide' },
-            { text: '❓ 常见问题', link: '/172/fqa' },
+            { text: '❓ 基础问题', link: '/172/fqa' },
             { text: '📞 联系我们', link: '/172/contact' },
-            { text: '🧙‍♂️ 小知识', link: '/172/tk' }
+            { text: '🧙‍♂️ 常见问题', link: '/172/tk' }
           ]
         },
         {
-          text: '📚 知识库',
+          text: '📚 常见问题',
           collapsed: false,
           items: [
             { text: '🚀 发货时效', link: '/172/st' },
@@ -309,16 +281,16 @@ export default defineConfig({      // 配置
             { text: '💳 激活指南', link: '/172/activate' },
             { text: '🔄 套餐变更', link: '/172/change' },
             { text: '📊 账单查询', link: '/172/bill' },
-            { text: '🔍 订单查询', link: '/172/query' }
+            { text: '🔍 订单查询', link: 'https://haokawx.lot-ml.com/Search/Index' }
           ]
         },
         {
           text: '&#128176; 财务相关',
           collapsed: false,
           items: [
-            { text: '💰 佣金政策', link: '/172/commission' },
-            { text: '🏦 结算规则', link: '/172/settlement' },
-            { text: '💳 提现说明', link: '/172/withdraw' }
+            { text: '💰 佣金政策', link: '/172/pay' },
+            { text: '🏦 结算规则', link: '/172/sr' },
+            { text: '💳 提现说明', link: '/172/money' }
           ]
         }
       ]

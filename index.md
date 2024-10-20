@@ -53,20 +53,20 @@ features:
     linkText: 探索广电套餐
   
   - icon: 💰
-    title: 全网最高佣金
+    title: 全网高佣金
     details: 全网最高的佣金，快速实现流量变现
     link: https://haoka.lot-ml.com/plugregper.html?agentid=90925
     linkText: 了解佣金方案
 
   - icon: 🎭
-    title: 全网最全卡池
+    title: 全网全卡池
     details: 全网最全的卡池，满足您的所有需求
     link: https://haoka.lot-ml.com/plugregper.html?agentid=90925
     linkText: 查看卡池详情
 
   - icon: 📊
-    title: 全网最优流量
-    details: 全网最优的流量，满足您的所有需求
+    title: 全网优质流量
+    details: 全网优质的流量，满足您的所有需求
     link: https://haoka.lot-ml.com/plugregper.html?agentid=90925
     linkText: 浏览流量套餐
 
