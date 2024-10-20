@@ -191,19 +191,19 @@ features:
 ### 
 <div style="display: flex; justify-content: center; flex-wrap: wrap;">
   <div style="text-align: center; margin: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 10px; overflow: hidden;">
-    <img src="./public/imges/wx.png" alt="联系客服二维码" style="width: 250px; height: 250px;" />
+    <img src="../public/imges/wx.png" alt="联系客服二维码" style="width: 250px; height: 250px;" />
     <p>关注我们</p>
   </div>
   <div style="text-align: center; margin: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 10px; overflow: hidden;">
-    <img src="./public/imges/wx.png" alt="联系客服二维码" style="width: 250px; height: 250px;" />
+    <img src="../public/imges/wx.png" alt="联系客服二维码" style="width: 250px; height: 250px;" />
     <p>扫码注册</p>
   </div>
   <div style="text-align: center; margin: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 10px; overflow: hidden;">
-    <img src="./public/imges/wx.png" alt="二维码1" style="width: 250px; height: 250px;" />
+    <img src="../public/imges/wx.png" alt="二维码1" style="width: 250px; height: 250px;" />
     <p>在线领卡</p>
   </div>
   <div style="text-align: center; margin: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 10px; overflow: hidden;">
-    <img src="./public/imges/wx.png" alt="二维码2" style="width: 250px; height: 250px;" />
+    <img src="../public/imges/wx.png" alt="二维码2" style="width: 250px; height: 250px;" />
     <p>加入社群</p>
   </div>
 </div>
