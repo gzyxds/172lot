@@ -2138,7 +2138,6 @@ export default defineConfig({
 
 也可以叫徽标，无论文档还是github项目都会见到这种
 
-![](urlka.cnbeautification/02.png)
 
 官网：https://shields.io/
 
