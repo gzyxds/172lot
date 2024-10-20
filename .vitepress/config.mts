@@ -121,6 +121,8 @@ export default defineConfig({      // 配置
             text: '🏢 关于我们',
             items: [
               { text: '📝 公司介绍', link: '/about/index' },
+              { text: '📝 代理加盟', link: 'https://haoka.lot-ml.com/plugreg.html?agentid=90925' },
+              { text: '🔍 登入系统', link: 'https://haoka.lot-ml.com/login.html' },
             ],
           },
           {
@@ -141,10 +143,10 @@ export default defineConfig({      // 配置
             // 分组标题3
             text: '📚 基础问题',
             items: [
-              { text: '🔍 使用教程', link: '/172/use' },
-              { text: '👨‍👦‍👦 注册指南', link: '/172/team' },
-              { text: '🧩 常见问题', link: '/172/' },
-              { text: '🎨 佣金说明', link: '/172/' },
+              { text: '🔍 使用教程', link: '/172/guide' },
+              { text: '👨‍👦‍👦 注册指南', link: '/172/agent' },
+              { text: '🧩 常见问题', link: '/172/fqa' },
+              { text: '🎨 佣金说明', link: '/172/pay' },
              ],
           },
         ],
@@ -191,10 +193,13 @@ export default defineConfig({      // 配置
           collapsed: false,  
           items: [
             { text: '🏢 公司简介', link: '/about/index' },
-            { text: '🌐 行业背景', link: '/about/fcc' },
-            { text: '🚀 发展趋势', link: '/about/pc' },
-            { text: '🔍 竞争格局', link: '/about/prc' },
             { text: '🎁 免费领卡', link: '/about/collect' },
+            { text: '🏢 代理加盟', link: 'https://haoka.lot-ml.com/plugreg.html?agentid=90925' },
+            { text: '🔍 登入系统', link: 'https://haoka.lot-ml.com/login.html' },
+            { text: '🔍 使用教程', link: '/172/guide' },
+            //{ text: '🌐 行业背景', link: '/about/fcc' },
+            //{ text: '🚀 发展趋势', link: '/about/pc' },
+            //{ text: '🔍 竞争格局', link: '/about/prc' },
             // { text: '📚 产品合集', link: '/about/dt' },
             // { text: '📦 产品目录', link: '/about/cl' },
           ]
@@ -255,7 +260,7 @@ export default defineConfig({      // 配置
             { text: '🔧 使用指南', link: '/172/guide' },
             { text: '❓ 基础问题', link: '/172/fqa' },
             { text: '📞 联系我们', link: '/172/contact' },
-            { text: '🧙‍♂️ 常见问题', link: '/172/tk' }
+            
           ]
         },
         {
