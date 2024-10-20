@@ -26,6 +26,13 @@
 5. 点击"注册"按钮提交申请
 6. 等待系统审核,审核通过后即可成为代理
 
+### 👀 手机扫码注册
+
+<img src="../public/imges/agent.jpg" alt="代理注册流程图" style="width: 500px; height: auto;">
+
+
+
+
 ### 🏢 企业注册
 
    
@@ -36,6 +43,9 @@
 5. 在选择企业的类型
 6. 输入手机号和验证码
 7. 提交注册申请
+### 👀 手机扫码注册
+
+<img src="../public/imges/agent.jpg" alt="代理注册流程图" style="width: 500px; height: auto;">
 
 ### 🔐 登入系统
 
@@ -126,7 +136,7 @@
     <p>扫码注册</p>
   </div>
   <div class="qr-code-item">
-    <img src="https://urlka.oss-cn-hangzhou.aliyuncs.com/wx.png" alt="在线领卡二维码">
+    <img src="https://haokaapi.lot-ml.com/Temps/ShopCode/90925.png" alt="在线领卡二维码">
     <p>在线领卡</p>
   </div>
 </div>

@@ -4,6 +4,11 @@
 
 点击以下链接进入领卡页面:
 - [免费领卡](https://172.lot-ml.com/ProductEn/Index/1a654e0b341cadd2)
+  
+
+## 或者手机扫码
+
+<img src="../public/imges/172.png" alt="172号卡领取页面" style="width: 100%; max-width: 450px; height: auto;">
 
 
 ## 步骤2: 选择套餐

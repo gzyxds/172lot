@@ -12,7 +12,7 @@
     <p>扫码注册</p>
   </div>
   <div class="qr-code-item">
-    <img src="https://urlka.oss-cn-hangzhou.aliyuncs.com/wx.png" alt="在线领卡二维码">
+    <img src="https://haokaapi.lot-ml.com/Temps/ShopCode/90925.png" alt="在线领卡二维码">
     <p>在线领卡</p>
   </div>
 </div>
