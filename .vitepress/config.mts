@@ -9,9 +9,9 @@ import { groupIconMdPlugin, groupIconVitePlugin, localIconLoader } from 'vitepre
 export default defineConfig({      // 配置
   lang: 'zh-CN', // 语言
   title: "172号卡分销系统官网_手机流量卡分销管理平台", // 标题
-  description: "172号卡官网！我们提供最新的电信、移动、联通和广电流量卡及物联卡的在线申请和办理服务。加入我们的分销管理平台，成为代理合伙人，轻松管理您的流量卡业务，获取丰厚收益。", // 描述
+  description: "172号卡官网！我们提供最新的电信、移动、联通和广电流量卡及物联卡的在线申请和办理服务,加入我们的分销管理平台,成为代理合伙人,轻松管理您的流量卡业务,获取丰厚收益。", // 描述
   head: [
-    ['meta', { name: 'keywords', content: '172号卡官网,号卡代理加盟,172号卡分销系统，流量卡在线申请，流量卡申请平台，流量卡分销平台' }],  //关键词  
+    ['meta', { name: 'keywords', content: '172号卡官网,号卡代理加盟,172号卡分销系统,流量卡在线申请,流量卡申请平台,流量卡分销平台' }],  //关键词  
     ['link', { rel: 'icon', href: '/imges/logo.png' }], //favicon图标
   ],
  
